@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>To Learn! To Teach!</title>
+	<meta name="author" content="" />
+	<meta name="description" content="To Learn! To Teach!" />
+	<meta name="keywords"  content="" />
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/registerbtn.css" />
+
+</head>
+<body>
+
+<div id="fullpage">
+
+	<div class="section " id="section1">
+		<h1>To Learn! To Teach!</h1>
+	</div>
+
+	<div class="section" id="section2">
+		<button class="btn btn-3 btn-3d icon-cog">Register</button>
+
+			<div class="slide" id="slide2" data-anchor="slide2">
+				<h1>Slide 2</h1>
+			</div>
+
+	    <div class="slide active" id="slide1" data-anchor="slide1">
+				<div class="onlinetool left">
+
+				</div>
+				<div class="onlinetool right">
+
+				</div>
+		  </div>
+
+		<div class="slide" id="slide3" data-anchor="slide3">
+			<h1>Slide 3</h1>
+		</div>
+
+	</div>
+
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>Why XXXX is the best for online learning</h1>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/fullpage.js"></script>
+<script type="text/javascript">
+    var myFullpage = new fullpage('#fullpage', {
+        anchors: ['firstPage', 'secondPage', '3rdPage'],
+        menu: '#menu',
+        loopTop: true,
+        loopBottom: true,
+				navigation: true,
+        navigationPosition: 'right',
+        responsiveWidth: 900,
+				slidesNavigation: true,
+
+
+				easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
+    });
+</script>
+
+</body>
+</html>
